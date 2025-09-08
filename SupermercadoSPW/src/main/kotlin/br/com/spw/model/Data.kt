@@ -14,7 +14,7 @@ class Data(private var dia: Int, private var mes: Int, private var ano: Int) {
         this.ano = ano
     }
 
-    // O MÉTODO QUE ESTAVA FALTANDO PROVAVELMENTE É ESTE
+
     fun antes(outraData: Data): Boolean {
         if (this.ano < outraData.ano) return true
         if (this.ano == outraData.ano && this.mes < outraData.mes) return true

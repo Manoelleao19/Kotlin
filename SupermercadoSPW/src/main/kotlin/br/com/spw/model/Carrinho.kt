@@ -1,6 +1,6 @@
 package br.com.spw.model
 
-// Imports necessários para a classe Carrinho funcionar
+
 
 class Carrinho {
     private val itens: MutableList<ItemProduto> = mutableListOf()
@@ -18,7 +18,7 @@ class Carrinho {
     }
 
     fun totalAPagar(): Double {
-        // Acessamos as propriedades diretamente, como corrigimos antes
+
         return itens.sumOf { it.produto.preco.toDouble() }
     }
 
