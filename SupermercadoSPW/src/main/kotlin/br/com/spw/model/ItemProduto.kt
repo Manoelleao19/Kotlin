@@ -2,9 +2,9 @@ package br.com.spw.model
 
 
 class ItemProduto(
-    val codigo: Long,                 // Acesso direto via item.codigo
-    val validade: Data,               // Acesso direto via item.validade
-    val produto: Produto              // Acesso direto via item.produto
+    val codigo: Long,                 
+    val validade: Data,
+    val produto: Produto
 ) {
 
     fun valido(): Boolean {
